@@ -1,0 +1,904 @@
+{
+ "1inch2": [
+  "bsc",
+  "eth",
+  "matic"
+ ],
+ "aave1": [
+  "eth"
+ ],
+ "aave2": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "linea",
+  "matic",
+  "op",
+  "sonic"
+ ],
+ "aave3": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "soneium",
+  "sonic",
+  "uni"
+ ],
+ "aave4": [
+  "avax",
+  "base",
+  "eth",
+  "matic",
+  "op"
+ ],
+ "accountable": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "monad"
+ ],
+ "agglayer": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "sonic",
+  "uni"
+ ],
+ "anzen": [
+  "avax",
+  "base",
+  "eth",
+  "matic"
+ ],
+ "azuro": [
+  "arb",
+  "base",
+  "eth",
+  "matic",
+  "op"
+ ],
+ "balancer": [
+  "arb",
+  "base",
+  "bsc",
+  "eth",
+  "hyper",
+  "matic"
+ ],
+ "balancer2": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "sonic"
+ ],
+ "balancer3": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "monad",
+  "op",
+  "sonic"
+ ],
+ "beefy": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "sonic"
+ ],
+ "beets": [
+  "arb",
+  "op",
+  "sonic"
+ ],
+ "benddao": [
+  "base",
+  "eth",
+  "matic",
+  "monad"
+ ],
+ "benqi": [
+  "avax"
+ ],
+ "chainlink": [
+  "eth",
+  "matic"
+ ],
+ "compound": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "ink",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "soneium",
+  "sonic",
+  "uni"
+ ],
+ "compound3": [
+  "arb",
+  "base",
+  "eth",
+  "hood",
+  "linea",
+  "matic",
+  "op",
+  "sonic",
+  "uni"
+ ],
+ "convex": [
+  "arb",
+  "base",
+  "bsc",
+  "eth",
+  "matic",
+  "op"
+ ],
+ "curvance": [
+  "monad"
+ ],
+ "curve": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "soneium",
+  "sonic",
+  "uni"
+ ],
+ "desyn": [
+  "arb",
+  "bsc",
+  "eth",
+  "linea",
+  "matic",
+  "monad"
+ ],
+ "dydx": [
+  "arb",
+  "eth"
+ ],
+ "eigenlayer": [
+  "arb",
+  "base",
+  "bsc",
+  "eth"
+ ],
+ "erc4626": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "soneium",
+  "sonic",
+  "uni"
+ ],
+ "ethena": [
+  "eth"
+ ],
+ "etherex": [
+  "linea"
+ ],
+ "etherfi": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "soneium",
+  "sonic",
+  "uni"
+ ],
+ "euler2": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "sonic",
+  "uni"
+ ],
+ "everstake": [
+  "eth"
+ ],
+ "fables": [
+  "hood"
+ ],
+ "falcon": [
+  "bsc",
+  "eth"
+ ],
+ "fluid": [
+  "arb",
+  "base",
+  "bsc",
+  "eth",
+  "matic"
+ ],
+ "fraxlend": [
+  "arb",
+  "base",
+  "eth",
+  "hyper",
+  "linea",
+  "matic",
+  "op",
+  "sonic"
+ ],
+ "fxprotocol": [
+  "avax",
+  "bsc",
+  "eth",
+  "hyper",
+  "sonic"
+ ],
+ "gliquid": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "linea",
+  "matic",
+  "monad",
+  "soneium",
+  "sonic"
+ ],
+ "gmx": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "ink",
+  "linea",
+  "matic",
+  "op",
+  "soneium",
+  "sonic"
+ ],
+ "gmx2": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "monad",
+  "op",
+  "sonic"
+ ],
+ "gondi": [
+  "eth",
+  "hood",
+  "hyper"
+ ],
+ "kelpdao": [
+  "arb",
+  "avax",
+  "base",
+  "eth"
+ ],
+ "kinetiq": [
+  "arb",
+  "hyper"
+ ],
+ "lido": [
+  "arb",
+  "avax",
+  "base",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "monad",
+  "op",
+  "soneium",
+  "uni"
+ ],
+ "liquity": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "matic",
+  "op"
+ ],
+ "makerdao": [
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "matic",
+  "op"
+ ],
+ "maple": [
+  "arb",
+  "base",
+  "eth",
+  "op"
+ ],
+ "matrixdock": [
+  "eth"
+ ],
+ "metamaskswaps": [
+  "eth"
+ ],
+ "midas": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "matic",
+  "monad",
+  "op"
+ ],
+ "mnteth": [
+  "eth"
+ ],
+ "moonwell": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "ink",
+  "linea",
+  "monad",
+  "op",
+  "sonic"
+ ],
+ "morpho": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "soneium",
+  "sonic",
+  "uni"
+ ],
+ "mysoniclabs": [
+  "sonic"
+ ],
+ "nado": [
+  "ink"
+ ],
+ "nucleus": [
+  "eth"
+ ],
+ "olympusdao": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "matic",
+  "op",
+  "sonic"
+ ],
+ "ondo": [
+  "eth",
+  "matic"
+ ],
+ "onyx": [
+  "eth"
+ ],
+ "originworld": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "sonic"
+ ],
+ "pancakeswap": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "sonic"
+ ],
+ "pancakeswap3": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "soneium",
+  "sonic",
+  "uni"
+ ],
+ "pancakeswap4": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "matic",
+  "op",
+  "sonic",
+  "uni"
+ ],
+ "pendle2": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "sonic"
+ ],
+ "pharaoh": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "linea",
+  "monad",
+  "op",
+  "sonic"
+ ],
+ "phargg": [
+  "avax",
+  "hyper",
+  "linea",
+  "sonic"
+ ],
+ "puffer": [
+  "avax",
+  "base",
+  "bsc",
+  "eth"
+ ],
+ "quickswap": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "linea",
+  "matic",
+  "op",
+  "sonic"
+ ],
+ "ramses": [
+  "avax",
+  "linea"
+ ],
+ "reental": [
+  "matic"
+ ],
+ "rocketpool": [
+  "eth"
+ ],
+ "rumblekongleague": [
+  "eth"
+ ],
+ "rysk": [
+  "arb",
+  "eth",
+  "hyper"
+ ],
+ "scribe": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "matic",
+  "monad",
+  "soneium",
+  "sonic"
+ ],
+ "shadowso": [
+  "arb",
+  "avax",
+  "bsc",
+  "hood",
+  "hyper",
+  "linea",
+  "matic",
+  "monad",
+  "sonic"
+ ],
+ "skymoney": [
+  "eth"
+ ],
+ "solidly": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "soneium",
+  "sonic",
+  "uni"
+ ],
+ "soonetwork": [
+  "base",
+  "bsc"
+ ],
+ "sushiswap": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "matic",
+  "monad",
+  "op",
+  "soneium"
+ ],
+ "swellnetwork": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hyper",
+  "ink",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "soneium",
+  "sonic",
+  "uni"
+ ],
+ "symbiotic": [
+  "avax",
+  "eth"
+ ],
+ "thales": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "matic",
+  "op"
+ ],
+ "traderjoexyz": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "matic",
+  "monad",
+  "op",
+  "sonic"
+ ],
+ "uniswap2": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "soneium",
+  "sonic",
+  "uni"
+ ],
+ "uniswap3": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "soneium",
+  "sonic",
+  "uni"
+ ],
+ "uniswap4": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "soneium",
+  "sonic",
+  "uni"
+ ],
+ "upshift": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hyper",
+  "ink",
+  "monad",
+  "sonic"
+ ],
+ "usdai": [
+  "arb"
+ ],
+ "usenest": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "hood",
+  "hyper",
+  "linea",
+  "matic",
+  "sonic"
+ ],
+ "vedatech": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "linea",
+  "monad",
+  "op",
+  "sonic",
+  "uni"
+ ],
+ "velodrome": [
+  "arb",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "monad",
+  "op",
+  "sonic",
+  "uni"
+ ],
+ "velodrome2": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "linea",
+  "monad",
+  "op",
+  "soneium",
+  "sonic",
+  "uni"
+ ],
+ "venice": [
+  "avax",
+  "base",
+  "hood"
+ ],
+ "venus": [
+  "arb",
+  "base",
+  "bsc",
+  "eth",
+  "matic",
+  "op",
+  "sonic",
+  "uni"
+ ],
+ "venzofinance": [
+  "arb",
+  "base",
+  "bsc",
+  "monad"
+ ],
+ "visionnow": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "linea",
+  "sonic"
+ ],
+ "worldlibertyfinancial": [
+  "eth"
+ ],
+ "yearn": [
+  "arb",
+  "avax",
+  "bsc",
+  "eth",
+  "matic"
+ ],
+ "yearn2": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "matic",
+  "op",
+  "sonic"
+ ],
+ "yearn3": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "ink",
+  "linea",
+  "matic",
+  "monad",
+  "op",
+  "sonic"
+ ],
+ "yieldbasis": [
+  "arb",
+  "eth"
+ ]
+}

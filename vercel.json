@@ -1,0 +1,5 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "regions": ["hnd1"],
+  "ignoreCommand": "git rev-parse -q --verify HEAD^ >/dev/null && git diff --quiet HEAD^ HEAD -- . ':(exclude)functions/platform'"
+}

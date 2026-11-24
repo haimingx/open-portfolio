@@ -1,0 +1,17 @@
+Open Portfolio
+Copyright (c) 2026 haimingx
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General
+Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any
+later version. It is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the LICENSE file for the full text.
+
+Third-party material
+--------------------
+* Libre Franklin is licensed under the SIL Open Font License, Version 1.1; see assets/fonts/OFL.txt.
+* Wallet, token, price and protocol data is read from the public Chaintable API (https://chaintable.com) and shown
+  under Chaintable's terms of service. The files under data/ are generated from that API by scripts/sync-data.sh.
+* The software calls functions that run on the Chaintable platform. Their source code is not part of this repository
+  and is not covered by the license above; functions/platform/manifest.json holds only their ids and code hashes.
+
+The name "Open Portfolio" and its logo are not part of the license.

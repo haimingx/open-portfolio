@@ -1,0 +1,65 @@
+name: Sync data
+
+# Regenerates the data snapshots (token allowlist, token details, protocols) every hour. When they change and the
+# checks pass, it commits them to main, which deploys. A deployment costs little: new instances start from the
+# snapshots, and cached wallets would be read again within a minute anyway; only the first visit after it waits.
+on:
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-data
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      # Pin the CLI, and take the install script from the same tag, so a CLI release cannot quietly change the output.
+      # Release downloads from GitHub occasionally fail with a 5xx, so retry before failing the hourly run.
+      - name: Install the Chaintable CLI
+        env:
+          CHAINTABLE_VERSION: v0.6.5
+        run: |
+          for attempt in 1 2 3; do
+            if curl -fsSL "https://raw.githubusercontent.com/haimingx/chaintable-cli/${CHAINTABLE_VERSION}/install.sh" | sh; then break; fi
+            if [ "$attempt" = 3 ]; then exit 1; fi
+            sleep 15
+          done
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      # Only public data is read, so no credentials are needed.
+      - run: ./scripts/sync-data.sh
+
+      - id: diff
+        run: |
+          git add data
+          if git diff --cached --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; else echo "changed=true" >> "$GITHUB_OUTPUT"; fi
+
+      # Pushes made with GITHUB_TOKEN do not trigger CI, so the checks run here before anything reaches main.
+      - if: steps.diff.outputs.changed == 'true'
+        run: |
+          npm run lint
+          npm run typecheck
+          npm test
+          npm run build
+
+      - if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -q -m 'chore(data): sync token and protocol snapshots'
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main

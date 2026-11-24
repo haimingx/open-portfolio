@@ -1,0 +1,43 @@
+name: Check functions
+
+# Once a day: records the id and code hash of the platform functions that wallet history relies on, committing any
+# change so git history shows which of them changed, then checks the deployed openportfolio.value_at against the repo
+# and against the page's values for sample wallets. A failed check means history may be wrong; GitHub emails the failure.
+on:
+  schedule:
+    - cron: '41 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: check-functions
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+
+      # Only public data is read, so no credentials are needed.
+      - run: npx tsx scripts/functions.ts snapshot
+
+      # Snapshot commits skip deployment (vercel.json ignoreCommand), since the site does not use them.
+      - run: |
+          git add functions/platform
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -q -m 'chore(functions): record platform function hashes'
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
+
+      - run: npx tsx scripts/functions.ts check
