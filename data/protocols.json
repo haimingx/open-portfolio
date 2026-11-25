@@ -234,30 +234,13 @@
   "matic"
  ],
  "communityv3": [
+  "ape",
   "arb",
-  "avax",
   "base",
-  "bera",
-  "bob",
   "bsc",
-  "core",
-  "cyber",
-  "fuse",
-  "g0",
+  "eth",
   "hood",
-  "ink",
-  "itze",
-  "katana",
-  "manta",
-  "matic",
-  "merlin",
-  "metis",
-  "monad",
-  "op",
-  "plasma",
-  "sonic",
-  "uni",
-  "xdc"
+  "hyper"
  ],
  "compound": [
   "ape",
@@ -668,6 +651,9 @@
   "bsc",
   "matic"
  ],
+ "hive": [
+  "b2"
+ ],
  "kelpdao": [
   "arb",
   "avax",
@@ -677,6 +663,10 @@
  "kinetiq": [
   "arb",
   "hyper"
+ ],
+ "kodiak": [
+  "bera",
+  "hood"
  ],
  "lido": [
   "arb",
@@ -721,14 +711,16 @@
  ],
  "makerdao": [
   "arb",
+  "avax",
   "base",
   "bera",
   "bsc",
   "eth",
-  "kava",
-  "linea",
-  "op",
-  "sonic"
+  "hood",
+  "matic",
+  "merlin",
+  "metis",
+  "op"
  ],
  "maple": [
   "arb",
@@ -1276,11 +1268,13 @@
   "hood",
   "hyper",
   "ink",
+  "itze",
   "katana",
   "kava",
   "linea",
   "manta",
   "matic",
+  "merlin",
   "metis",
   "mode",
   "monad",
