@@ -235,8 +235,21 @@
  ],
  "communityv3": [
   "arb",
+  "arc",
+  "avax",
+  "base",
+  "bob",
   "bsc",
-  "hood"
+  "core",
+  "frax",
+  "hood",
+  "matic",
+  "monad",
+  "op",
+  "scrl",
+  "sonic",
+  "uni",
+  "xdc"
  ],
  "compound": [
   "ape",
@@ -707,14 +720,16 @@
  ],
  "makerdao": [
   "arb",
+  "avax",
   "base",
-  "bera",
   "bsc",
   "eth",
-  "linea",
+  "hood",
   "matic",
   "merlin",
-  "op"
+  "metis",
+  "op",
+  "taiko"
  ],
  "maple": [
   "arb",
@@ -988,6 +1003,9 @@
   "linea",
   "sonic"
  ],
+ "plumenetwork": [
+  "eth"
+ ],
  "puffer": [
   "avax",
   "base",
@@ -1180,6 +1198,17 @@
   "matic",
   "op"
  ],
+ "tokenops": [
+  "arb",
+  "base",
+  "bera",
+  "bob",
+  "bsc",
+  "eth",
+  "matic",
+  "op",
+  "taiko"
+ ],
  "traderjoexyz": [
   "arb",
   "avax",
@@ -1192,6 +1221,9 @@
   "monad",
   "op",
   "sonic"
+ ],
+ "unirouter": [
+  "b2"
  ],
  "uniswap2": [
   "ape",
@@ -1347,7 +1379,6 @@
   "arc",
   "avax",
   "base",
-  "bera",
   "bsc",
   "eth",
   "hood",
