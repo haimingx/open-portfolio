@@ -229,27 +229,26 @@
  "benqi": [
   "avax"
  ],
+ "cedefi": [
+  "manta"
+ ],
  "chainlink": [
   "eth",
   "matic"
  ],
  "communityv3": [
+  "ape",
   "arb",
-  "arc",
-  "avax",
   "base",
   "bob",
   "bsc",
   "core",
-  "frax",
+  "eth",
   "hood",
-  "matic",
+  "hyper",
   "monad",
   "op",
-  "scrl",
-  "sonic",
-  "uni",
-  "xdc"
+  "sonic"
  ],
  "compound": [
   "ape",
@@ -719,16 +718,12 @@
   "sonic"
  ],
  "makerdao": [
-  "arb",
   "avax",
   "base",
   "bsc",
   "eth",
   "hood",
   "matic",
-  "merlin",
-  "metis",
-  "op",
   "taiko"
  ],
  "maple": [
@@ -743,6 +738,18 @@
  ],
  "metamaskswaps": [
   "eth"
+ ],
+ "metric": [
+  "arb",
+  "avax",
+  "base",
+  "bsc",
+  "eth",
+  "hood",
+  "hyper",
+  "matic",
+  "monad",
+  "xlayer"
  ],
  "midas": [
   "arb",
@@ -1209,6 +1216,13 @@
   "op",
   "taiko"
  ],
+ "topazdex": [
+  "arc",
+  "base",
+  "eth",
+  "hood",
+  "op"
+ ],
  "traderjoexyz": [
   "arb",
   "avax",
@@ -1379,6 +1393,7 @@
   "arc",
   "avax",
   "base",
+  "bob",
   "bsc",
   "eth",
   "hood",
@@ -1529,5 +1544,9 @@
  "yieldbasis": [
   "arb",
   "eth"
+ ],
+ "zerolend": [
+  "bsc",
+  "linea"
  ]
 }
