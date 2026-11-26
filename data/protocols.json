@@ -234,13 +234,9 @@
   "matic"
  ],
  "communityv3": [
-  "ape",
   "arb",
-  "base",
   "bsc",
-  "eth",
-  "hood",
-  "hyper"
+  "hood"
  ],
  "compound": [
   "ape",
@@ -711,15 +707,13 @@
  ],
  "makerdao": [
   "arb",
-  "avax",
   "base",
   "bera",
   "bsc",
   "eth",
-  "hood",
+  "linea",
   "matic",
   "merlin",
-  "metis",
   "op"
  ],
  "maple": [
@@ -1353,6 +1347,7 @@
   "arc",
   "avax",
   "base",
+  "bera",
   "bsc",
   "eth",
   "hood",
