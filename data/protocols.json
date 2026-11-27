@@ -125,6 +125,9 @@
   "matic",
   "mode"
  ],
+ "apechainstake": [
+  "ape"
+ ],
  "avantis": [
   "base"
  ],
@@ -229,6 +232,17 @@
  "benqi": [
   "avax"
  ],
+ "camelot": [
+  "ape",
+  "arb",
+  "avax",
+  "metis",
+  "plume",
+  "sonic"
+ ],
+ "capfinance": [
+  "bsc"
+ ],
  "cedefi": [
   "manta"
  ],
@@ -239,17 +253,11 @@
  "communityv3": [
   "ape",
   "arb",
-  "arc",
-  "avax",
-  "base",
   "bsc",
+  "eth",
   "hood",
   "hyper",
-  "matic",
-  "plume",
-  "soneium",
-  "taiko",
-  "world"
+  "sonic"
  ],
  "compound": [
   "ape",
@@ -720,7 +728,18 @@
   "sonic"
  ],
  "makerdao": [
-  "eth"
+  "arb",
+  "bera",
+  "bsc",
+  "eth",
+  "hood",
+  "kava",
+  "linea",
+  "matic",
+  "merlin",
+  "metis",
+  "op",
+  "sonic"
  ],
  "maple": [
   "arb",
@@ -1019,7 +1038,6 @@
   "mode"
  ],
  "quickswap": [
-  "ape",
   "arb",
   "avax",
   "base",
@@ -1030,9 +1048,7 @@
   "linea",
   "manta",
   "matic",
-  "metis",
   "op",
-  "plume",
   "sonic",
   "xlayer"
  ],
@@ -1215,6 +1231,7 @@
  "topazdex": [
   "arc",
   "base",
+  "bsc",
   "eth",
   "hood",
   "op"
@@ -1389,6 +1406,7 @@
   "arc",
   "avax",
   "base",
+  "bob",
   "bsc",
   "eth",
   "hood",
