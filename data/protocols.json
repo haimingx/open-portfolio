@@ -239,16 +239,17 @@
  "communityv3": [
   "ape",
   "arb",
+  "arc",
+  "avax",
   "base",
-  "bob",
   "bsc",
-  "core",
-  "eth",
   "hood",
   "hyper",
-  "monad",
-  "op",
-  "sonic"
+  "matic",
+  "plume",
+  "soneium",
+  "taiko",
+  "world"
  ],
  "compound": [
   "ape",
@@ -335,6 +336,7 @@
   "sonic",
   "taiko",
   "uni",
+  "world",
   "xdc",
   "xlayer"
  ],
@@ -718,13 +720,7 @@
   "sonic"
  ],
  "makerdao": [
-  "avax",
-  "base",
-  "bsc",
-  "eth",
-  "hood",
-  "matic",
-  "taiko"
+  "eth"
  ],
  "maple": [
   "arb",
@@ -1393,7 +1389,6 @@
   "arc",
   "avax",
   "base",
-  "bob",
   "bsc",
   "eth",
   "hood",
