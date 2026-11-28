@@ -270,11 +270,20 @@
   "matic"
  ],
  "communityv3": [
+  "ape",
   "arb",
+  "arc",
+  "avax",
+  "base",
   "bsc",
   "hood",
-  "sonic",
-  "xlayer"
+  "hyper",
+  "matic",
+  "plume",
+  "soneium",
+  "stable",
+  "taiko",
+  "world"
  ],
  "compound": [
   "ape",
@@ -770,8 +779,12 @@
  ],
  "makerdao": [
   "arb",
+  "avax",
+  "base",
   "bsc",
   "eth",
+  "matic",
+  "mnt",
   "op"
  ],
  "maple": [
@@ -1467,6 +1480,7 @@
   "avax",
   "base",
   "bera",
+  "bob",
   "bsc",
   "eth",
   "hood",
